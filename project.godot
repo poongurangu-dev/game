@@ -1,0 +1,19 @@
+[application]
+
+config/name="Flappy Bird Clone"
+config/description="A Flappy Bird-like game made with Godot and GDScript"
+config/version="0.1.0"
+config/author="Your Name"
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=600
+
+[input]
+
+ui_space={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":32,"physical_keycode":32,"key_label":32,"unicode":32,"echo":false,"script":null)
+]
+}
