@@ -5,28 +5,14 @@
 
 ## Setup Steps
 
-1. **Open Godot and create a new project**
-   - Select "New Project"
-   - Choose a folder (point to this directory if importing existing)
+1. **Open Godot and import this project**
+   - Open Godot Project Manager
+   - Click "Import"
+   - Browse to this directory and select the `project.godot` file
    - Select Vulkan renderer for best compatibility
-   - Click "Create & Edit"
+   - Click "Import & Open"
 
-2. **Copy the project files**
-   - Copy all files from this directory into your Godot project folder
-   - File structure should match:
-     ```
-     project/
-     ├── project.godot
-     ├── scripts/
-     │   ├── player.gd
-     │   ├── pipe.gd
-     │   └── game_manager.gd
-     └── scenes/
-         ├── main.tscn
-         └── pipe.tscn
-     ```
-
-3. **Setup in Godot**
+2. **Setup in Godot**
    - Go to Project → Project Settings → General → AutoLoad
    - Add `scripts/game_manager.gd` as autoload with name "GameManager"
 
